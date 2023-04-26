@@ -6,5 +6,5 @@
 #include "min_heap.hpp"
 
 int main() {
-	
+
 }
