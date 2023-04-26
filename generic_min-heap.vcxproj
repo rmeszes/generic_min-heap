@@ -98,7 +98,13 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClInclude Include="gtest_lite.h" />
+    <ClInclude Include="memtrace.h" />
     <ClInclude Include="min_heap.hpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="memtrace.cpp" />
+    <ClCompile Include="min-heap_test.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
